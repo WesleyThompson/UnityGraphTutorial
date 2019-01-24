@@ -5,7 +5,7 @@ using UnityEngine;
 public class Graph : MonoBehaviour {
 
     public Transform pointPrefab;
-    [Range(10,100)]
+    [Range(1, 1000000)]
     public int resolution = 10;
 
     Transform[] points;
